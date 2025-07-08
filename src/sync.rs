@@ -164,7 +164,7 @@ fn packet_loss() {
 
             let loss = 100.0 * (sent - received) as f64 / sent as f64;
             println!(
-                "Client sent {}, received {} (loss: {:.1}%)",
+                "Client sent {}, received {} (loss: {:.3}%)",
                 sent, received, loss
             );
         });
